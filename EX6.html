@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Display Form</title>
+<script type="text/javascript" >
+</script>
+</head>
+<form method="POST" action="http://localhost:7882/WP6.php">
+User :
+<input type="text" name="mname" size=30 /> <br/>
+<label id="heading" ></label>
+<table>
+<TR>
+<td>select the items</td>
+<td>quantity</td>
+<tr/>
+<tr>
+<TD>
+<input type="checkbox" name="option1" checked="checked"/>
+<label id="chk1">Four 100 watt bulbs for Rs. 20.39 </label>
+</TD>
+<TD>
+<input type="text" name="VAL1" size=2 />
+</TD>
+</TR>
+<TR><TD>
+<input type="checkbox" name="option2" />
+<label id="chk2">Eight 100watt bulbs for Rs 40.20 </label></TD>
+<TD>
+<input type="text" name="VAL2" size=2/>
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="checkbox" name="option3" />
+<label id="chk3">Four 100watt long life bulbs for Rs. 30.95 </label>
+</TD>
+<TD>
+<input type="text" name="VAL3" size=2/>
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="checkbox" name="option4" />
+<label id="chk4">Eight 100watt long life bulbs for Rs 70.49 </label><br/>
+</TD>
+<TD>
+<input type="text" name="VAL4" size=2/>
+</TD>
+</TR>
+</table>
+<input type="radio" name="paymode" value="visa" checked="checked" /> VISA <br/>
+<input type="radio" name="paymode" value="mcard"/> MASTER CARD <br/>
+<input type="radio" name="paymode" value="discover"/> DISCOVER <br/>
+<input type="submit" id="bt" value="submit"/>
+<input type="reset" value="Reset Order" />
+</form>
+</body>
+</html>
