@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="p4.xsl"?>
+<patients>
+<patient>
+<name>
+<fname> Sanjay </fname>
+<mname> S</mname>
+<lname> Srinivas</lname>
+</name>
+<ssn> 100 </ssn>
+<age> 80</age>
+<roomnumber> 420 </roomnumber>
+<primaryinsurance>
+<id> 10 </id>
+<gn>101</gn>
+<address> Yeshwanthpura.</address>
+</primaryinsurance>
+<secondaryinsurance>
+<id>20 </id>
+<gn>027</gn>
+<address> jayanagar</address>
+</secondaryinsurance>
+<medproblems> blood-pressure </medproblems>
+<drugallergies>nil</drugallergies>
+</patient>
+
+<patient>
+<name>
+<fname> Ria </fname>
+<mname> D</mname>
+<lname> Merchant</lname>
+</name>
+<ssn> 101 </ssn>
+<age> 41</age>
+<roomnumber> 421 </roomnumber>
+<primaryinsurance>
+<id> 111</id>
+<address> jp nagar
+</address>
+</primaryinsurance>
+<secondaryinsurance>
+<id>112 </id>
+<gn>021</gn>
+<address> vijayanagar
+</address>
+</secondaryinsurance>
+<medproblems> vitamin deficiency </medproblems>
+<drugallergies>nil</drugallergies>
+</patient>
+
+<patient>
+<name>
+<fname>Jennifer </fname>
+<mname> k</mname>
+<lname> Fernandies</lname>
+</name>
+<ssn> 102 </ssn>
+<age> 42</age>
+<roomnumber> 422 </roomnumber>
+<primaryinsurance>
+<id> 113 </id>
+<gn>021</gn>
+<address> Vijaynagar</address>
+</primaryinsurance>
+<secondaryinsurance>
+<id> 114</id>
+<gn>001</gn>
+<address> jp</address>
+</secondaryinsurance>
+<medproblems>cancer </medproblems>
+<drugallergies>nil</drugallergies>
+</patient>
+
+<patient>
+<name>
+<fname> Jhon </fname>
+<mname> B</mname>
+<lname>smith</lname>
+</name>
+<ssn> 103</ssn>
+<age> 41</age>
+<roomnumber> 423 </roomnumber>
+<primaryinsurance>
+<id> 113 </id>
+<gn>051</gn>
+<address> Malleshwaram. </address>
+</primaryinsurance>
+<secondaryinsurance>
+<id> 115</id>
+<gn>030</gn>
+<address> Siddarthanagar</address>
+</secondaryinsurance>
+<medproblems> coma </medproblems>
+<drugallergies>nil</drugallergies>
+</patient>
+</patients>
