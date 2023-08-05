@@ -1,0 +1,40 @@
+<html>
+<head>
+<title> Dynamic stacking of paragraphs </title>
+<script type = "text/javascript">
+var oldTop="p1";
+function toTop(newTop)
+{
+var domTop=document.getElementById(oldTop).style;
+var domNew=document.getElementById(newTop).style;
+domTop.zIndex=0;
+domNew.zIndex=10;
+oldTop=newTop;
+}
+</script>
+<style type = "text/css">
+.para1{ color:brown; position:absolute; top:90px;
+ left:150px; zIndex=0; background-Color:lime; }
+.para2{ color:black; position:absolute; top:120px;
+ left:200px; zIndex=0; background-Color:orange; }
+.para3{ color:blue; position:absolute; top:140px;
+ left:250px; zIndex=0; background-Color:yellow; }
+.para4{ color:white; position:absolute; top:160px;
+ left:300px; zIndex=0; background-Color:grey; }
+</style>
+</head>
+<body bgcolor = "beige">
+<p class = "para1" id = "p1" onmouseover = "toTop('p1');" >
+I am Joe, <br> I'm an computer science student. <br> Reg no 302CS12017<br>
+I'm from Allston city.</p>
+<p class="para2" id="p2" onmouseover="toTop('p2');" >
+I am Kiara, <br> I'm an architecture student. <br> Reg no 302AR12019<br>
+I'm from Agra.</p>
+<p class="para3" id="p3" onmouseover="toTop('p3');" >
+I am Armaan, <br> I'm an zoological student. <br> Reg no 302ZO12016<br>
+I'm from Gangtok.</p>
+<p class="para4" id="p4" onmouseover="toTop('p4');" >
+I am Zoya, <br> I'm an MBA student. <br> Reg no 302CM12018 </br>I'm from
+Baderwah.</p>
+</body>
+</html>
