@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>JS Validation</title>
+  </head>
+  <body background="https://i.pinimg.com/736x/ef/7d/98/ef7d9829c011f6458755dbcbb439b0ee.jpg">
+    <div style="width: 300px; height: 300px; margin: 0 auto;" >
+      <h1>Enter Details:</h1>
+      <form name="myform" onsubmit="return validateform()">
+          <label>Name  : </label>
+          <input type="text" id="name" name="Full name" placeholder="Full name"><br>
+          <label>Email : </label>   
+          <input type="email" id="mail" name="email" placeholder="Email"><br>
+          <label>Mobile No. : </label>
+          <input type="number" id="mobile" name="mobile"><br>
+          <label>Gender: </label>
+          <select name="gender">
+              <option value="Choose" selected>[Choose yours]</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+          </select><br>
+          <label>Favourite Color: </label>
+          <input type="text" id="favc" name="favc"><br>
+          <input type="submit" value="submit"><br>   
+      </form>
+	</div>  
+    <script>
+        function validateform(){
+           var name = document.myform.name.value;
+           var mail = document.myform.mail.value;
+           var mobile = document.myform.mobile.value;
+           var favc = document.myform.favc.value;
+           var gender = document.myform.gender.value;
+           var atpos = mail.indexOf("@");
+           var dotpos = mail.lastIndexOf(".");
+           if(name == "null" || name == ""){
+              alert("Name can't be blank");
+              return false;
+           }else if(atpos<1 || dotpos<atpos+2 || dotpos+2>=mail.length){
+              alert("Please enter a valid email address\natposition: "+atpos+"\ndotpos: "+dotpos);
+              return false;
+           }else if(mobile.length < 10){
+              alert("Mobile no. must be of 10 digits");
+              return false;
+           }else if(gender=="Choose"){
+                 alert("Please provide your gender!");
+                 return false;
+           }else if(favc=="null" || favc==""){
+              alert("Please provide your Fvourite colour!");
+              return false;
+           }
+           document.write("Name : "+name);
+           document.write("<br>E-mail : "+mail);
+           document.write("<br>Mobile No. : "+mobile);
+           document.write("<br>Gender : "+gender);
+           document.write("<br>Favourite colour : "+favc);
+        }
+    </script>
+  </body>
+</html>
