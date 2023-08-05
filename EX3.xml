@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="p3.css"?>
+<patients>
+<patient>
+<name>
+<fname> Sanjay </fname>
+<mname> S</mname>
+<lname> Srinivas</lname>
+</name>
+<ssn> 100 </ssn>
+<age> 80</age>
+<roomnumber> 420 </roomnumber>
+<insurance type="Primary">
+<id> 10 </id>
+<gn>101</gn>
+<address> Yeshwanthpura.</address>
+</insurance>
+<insurance type="Secondary">
+<id>20 </id>
+<gn>027</gn>
+<address> jayanagar
+</address>
+</insurance>
+<medproblems> blood-pressure </medproblems>
+<drugallergies>nil</drugallergies>
+</patient>
+
+<patient>
+<name>
+<fname> Ria </fname>
+<mname> D</mname>
+<lname> Merchant</lname>
+</name>
+<ssn> 101 </ssn>
+<age> 41</age>
+<roomnumber> 421 </roomnumber>
+<insurance type="Primary">
+<id> 111</id>
+<address> jp nagar
+</address>
+</insurance>
+<insurance type="Secondary">
+<id>112 </id>
+<gn>021</gn>
+<address> vijayanagar
+</address>
+</insurance>
+<medproblems> vitamin deficiency </medproblems>
+<drugallergies>nil</drugallergies>
+</patient>
+
+<patient>
+<name>
+<fname>Jennifer </fname>
+<mname> k</mname>
+<lname> Fernandies</lname>
+</name>
+<ssn> 102 </ssn>
+<age> 42</age>
+<roomnumber> 422 </roomnumber>
+<insurance type="Primary">
+<id> 113 </id>
+<gn>021</gn>
+<address> Vijaynagar</address>
+</insurance>
+<insurance type="Secondary">
+<id> 114</id>
+<gn>001</gn>
+<address> jp</address>
+</insurance>
+<medproblems>cancer </medproblems>
+<drugallergies>nil</drugallergies>
+</patient>
+
+<patient>
+<name>
+<fname> Jhon </fname>
+<mname> B</mname>
+<lname>smith</lname>
+</name>
+<ssn> 103</ssn>
+<age> 41</age>
+<roomnumber> 423 </roomnumber>
+<insurance  type="Primary">
+<id> 113 </id>
+<gn>051</gn>
+<address> Malleshwaram. </address>
+</insurance>
+<insurance type="Secondary">
+<id> 115</id>
+<gn>030</gn>
+<address> Siddarthanagar</address>
+</insurance>
+<medproblems> coma </medproblems>
+</patient>
+</patients>
+
+<name id="11">
+<fname>Jai</fname>
+<mname>C</mname>
+<lname>Rao</lname>
+</name>
+<ssn>111</ssn>
+<age>22</age>
+<roomno>100</roomno>
+<primaryinsurancecompany>
+<mino>ka11</mino>
+<grno>ka</grno>
+<address>
+<street>Green street</street>
+<city>Ankola</city>
+<pin>581314</pin>
+</address>
+</primaryinsurancecompany>
+<secondaryinsurancecompany>
+<mino>ka11</mino>
+<grno>ka</grno>
+<address>
+<street>Green street</street>
+<city>Ankola</city>
+<pin>581314</pin>
+</address>
+</secondaryinsurancecompany>
+<medicalproblems>cold</medicalproblems>
+<drugallergies>nill</drugallergies>
+</patient>
+<patient>
+<name id="12">
+<fname>Sita</fname>
+<mname>G</mname>
+<lname>Prasad</lname>
+</name>
+<ssn>111</ssn>
+<age>21</age>
+<roomno>101</roomno>
+<primaryinsurancecompany>
+<mino>ka30</mino>
+<grno>ka</grno>
+<address>
+<street>Beach Road</street>
+<city>Karwar</city>
+<pin>581301</pin>
+</address>
+</primaryinsurancecompany>
+<secondaryinsurancecompany>
+<mino>ka30</mino>
+<grno>ka</grno>
+<address>
+<street>Beach Road</street>
+<city>Karwar</city>
+<pin>581301</pin>
+</address>
+</secondaryinsurancecompany>
+<medicalproblems> feaver</medicalproblems>
+<drugallergies>nill</drugallergies>
