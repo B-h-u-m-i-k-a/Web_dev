@@ -32,7 +32,7 @@ public class prog12 extends HttpServlet
               request.setAttribute("sname", singername);
               request.setAttribute("cname", composername);
               ServletContext context= getServletContext();
-             RequestDispatcher rd= context.getRequestDispatcher("/redirectto");
+             RequestDispatcher rd= context.getRequestDispatcher("/redirectto12");
               rd.forward(request, response);
         }
     }
