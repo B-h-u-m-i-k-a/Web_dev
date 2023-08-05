@@ -9,6 +9,8 @@ This repository consists of some of the Programs which have been coded for pract
 
 (EX4) Create the XSLT style sheet to format all the patient elements of the XML, document of exercise 3 and use it to create a display of whole element.
 
+>>>PHP<<<
+
 (EX5) Write an XHTML document to include an anchor tag, that calls a PHP document also write the called PHP document which returns a randomly chosen greeting from a list of five different greetings. The greetings must be stored as constant strings in the script. A random number between 0 and 4 can be computed with these line.
            #set the seed for mtrand with the number of microseconds 
                #since the last full second of the clock mt_strand((double) microtime() * 1000000);              
@@ -34,6 +36,15 @@ Write a PHP script that computes the total cost of the ordered light bulbs for t
 
 (EX8) Write the XHTML code using JavaScript Object Notation (JSON) to accept from the user name, phone no, mail-id, stored in database. Retrieve same information from database using a separate PHP script.
 
+>>>>SERVELET PROGS<<<<
+
 (EX9) Write a servlet that returns a randomly chosen greeting from a list of five different greetings. The greeting must be stored as constant strings in the program.
 
+(EX10) Write a servlet for the XHTML code of exercise 6 that computes the total cost of ordered light bulbs after adding 2% sales tax. The servlet must inform the buyer of exactly what was ordered in table.
+
+(EX11) Write and test a JSP document that displays the form of exercise 6 and produces the same response document as exercise 10.
+
+(EX12) Write a mark-up document to create a form that collects favorite popular songs, including the name of the song, the composer and the performing artist or group. This document must call a servlet when the form is submitted and another servlet to request a current list of survey results.
+
+(EX13) Create a simple Java web application using Servlet and JDBC.
 
